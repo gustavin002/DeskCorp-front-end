@@ -1,0 +1,35 @@
+.card {
+    list-style: none;
+    background: var(--papel);
+    border: 1px solid var(--linha);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.titulo {
+    font-weight: 700;
+    color: var(--tinta);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.titulo:hover {
+    color: var(--acento);
+    text-decoration: underline;
+}
+
+.categoria {
+    color: var(--suave);
+    font-size: 0.9rem;
+}
+
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: auto;
+    padding-top: 0.4rem;
+}

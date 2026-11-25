@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--papel);
+    border: 1px solid var(--linha);
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 640px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-weight: 600;
+    flex: 1 1 180px;
+}
+
+.form input, .form textarea, .form select {
+    font: inherit;
+    font-weight: 400;
+    padding: 0.55rem;
+    border: 1px solid var(--linha);
+    border-radius: 6px;
+    width: 100%;
+    background: #fff;
+}
+
+.form button {
+    align-self: flex-start;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.erro {
+    color: var(--erro);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
