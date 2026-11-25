@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import FormChamado from "../../../../components/FormChamado/FormChamado";
 import Mensagem from "../../../../components/Mensagem/Mensagem";
-import { chamados, categorias } from "../../../../dados/exemplo";
+import { chamados, categorias } from "../../../../components/dados/exemplo.js";
 
 export default function EditarChamado() {
   const { id } = useParams();

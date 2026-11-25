@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import FormChamado from "../../../components/FormChamado/FormChamado";
-import Mensagem from "../../../components/Mensagem/Mensagem";
-import { categorias } from "../../../dados/exemplo";
+import FormChamado from "../../../components/FormChamado/FormChamado.js";
+import Mensagem from "../../../components/Mensagem/Mensagem.js";
+import { categorias } from "../../../components/dados/exemplo.js";
 
 export default function NovoChamado() {
   const router = useRouter();

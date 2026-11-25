@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import Mensagem from "../../../components/Mensagem/Mensagem";
-import { chamados, formatarData } from "../../../dados/exemplo";
+import { chamados, formatarData } from "../../../components/dados/exemplo.js";
 
 export default function DetalheChamado() {
   const { id } = useParams();

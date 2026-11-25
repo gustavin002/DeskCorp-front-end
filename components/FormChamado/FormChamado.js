@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { prioridades, statusLista } from "../../dados/exemplo";
+import { prioridades, statusLista } from "../dados/exemplo.js";
 import styles from "./FormChamado.module.css";
 
 const vazio = { titulo: "", descricao: "", prioridade: "media", status: "aberto", categoria_id: "" };
