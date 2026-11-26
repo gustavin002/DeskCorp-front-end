@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .topo h1 {
+    margin-bottom: 0;
+  }
+  
+  .formulario {
+    background: var(--papel);
+    border: 1px solid var(--linha);
+    border-radius: 8px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  .subtitulo {
+    font-size: 1.05rem;
+    color: var(--tinta);
+  }
+  
+  .linhaForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem;
+  }
+  
+  .campo {
+    flex: 1;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  
+  .campo label {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
+  .campo input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--linha);
+    border-radius: 6px;
+    font: inherit;
+    color: var(--tinta);
+    background: var(--papel);
+  }
+  
+  .acoesForm {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  
+  .item {
+    background: var(--papel);
+    border: 1px solid var(--linha);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .nomeItem {
+    font-weight: 600;
+  }
+  
+  .acoesItem {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .botaoCompacto {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .alertaErro {
+    background: var(--alta-fundo);
+    color: var(--alta-texto);
+    padding: 0.65rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .alertaSucesso {
+    background: var(--baixa-fundo);
+    color: var(--baixa-texto);
+    padding: 0.65rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .vazio {
+    background: var(--papel);
+    border: 1px dashed var(--linha);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--suave);
+  }

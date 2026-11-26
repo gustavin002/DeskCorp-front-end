@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Filtro from "../components/Filtro/Filtro";
 import ListaChamados from "../components/ListaChamados/ListaChamados";
-import { chamados, categorias, statusLista } from "../components/dados/exemplo.js";
+import { chamados, categorias, statusLista } from "../dados/exemplo.js";
 
 export default function Home() {
   const [categoria, setCategoria] = useState("");
